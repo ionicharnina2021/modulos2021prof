@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DosComponent } from './dos/dos.component';
+import { PrimeraModule } from './funcionalidadUno/primera.module';
 
 @NgModule({
   declarations: [
-    AppComponent,       
+    AppComponent,
+    DosComponent,      
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,  
+    PrimeraModule
   ],
   providers: [],
   bootstrap: [AppComponent]
